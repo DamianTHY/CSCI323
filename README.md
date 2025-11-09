@@ -1,4 +1,4 @@
-# 🚕 CSCI323 Group Project — Drive a Taxi (FT11)
+#  CSCI323 Group Project — Drive a Taxi (FT11)
 
 This project implements and compares **four reinforcement learning algorithms** on the classic `Taxi-v3` environment from **OpenAI Gymnasium**:
 
@@ -11,7 +11,7 @@ The study evaluates their performance in terms of **on-policy vs off-policy** an
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 The goal is for the taxi agent to learn how to **pick up and drop off passengers** in the least number of steps possible.  
 We compare algorithms by measuring:
@@ -26,7 +26,7 @@ Each algorithm is trained and evaluated under consistent hyperparameters and a c
 
 ---
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
  1. Clone Repository
 
@@ -91,25 +91,34 @@ All figures are saved automatically in the working directory
 
 3. Reproduce Tables / Metrics
 
+###  Training Summary
+
 After training, a summary is printed:
 
-Monte Carlo | avg_return = +10.04 | avg_steps = 13.0 | success = 100.0 %
-SARSA | avg_return = +9.76 | avg_steps = 13.1 | success = 100.0 %
-Q-Learning | avg_return = +10.09 | avg_steps = 12.9 | success = 100.0 %
-Value Iter. | avg_return = +10.12 | avg_steps = 12.8 | success = 100.0 %
+Algorithm	avg_return	avg_steps	success_rate
+Monte Carlo	+10.04	13.0	100.0 %
+SARSA	+9.76	13.1	100.0 %
+Q-Learning	+10.09	12.9	100.0 %
+Value Iteration	+10.12	12.8	100.0 %
 
 
-🧩 File Structure
 
+---
 
-├── csci323_groupproject_ft11.py
-├── policy_mc.pkl 
-├── policy_sarsa.pkl 
-├── policy_ql.pkl
-├── policy_vi.pkl 
-├── fig_*.png
-├── requirements.txt 
-└── README.md 
+###  File Structure
+
+csci323-taxi-ft11/
+│
+├── csci323_groupproject_ft11.py # Main training & evaluation script
+│
+├── policy_mc.pkl # Saved Monte Carlo policy
+├── policy_sarsa.pkl # Saved SARSA policy
+├── policy_ql.pkl # Saved Q-Learning policy
+├── policy_vi.pkl # Saved Value Iteration policy
+│
+├── fig_*.png # Auto-generated figures
+├── requirements.txt # Dependency list
+└── README.md # Project documentation
 
 
 To reproduce all results, simply run:
