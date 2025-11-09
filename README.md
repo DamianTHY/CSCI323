@@ -63,6 +63,7 @@ numpy>=1.26.0
 
 
 How to Reproduce Key Results
+
 1. Run the Main Script
 python csci323_groupproject_ft11.py
 
@@ -91,6 +92,7 @@ All figures are saved automatically in the working directory
 3. Reproduce Tables / Metrics
 
 After training, a summary is printed:
+
 Monte Carlo   | avg_return = +10.04 | avg_steps = 13.0 | success = 100.0 %
 SARSA         | avg_return = +9.76  | avg_steps = 13.1 | success = 100.0 %
 Q-Learning    | avg_return = +10.09 | avg_steps = 12.9 | success = 100.0 %
