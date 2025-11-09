@@ -100,7 +100,6 @@ Value Iter.   | avg_return = +10.12 | avg_steps = 12.8 | success = 100.0 %
 🧩 File Structure
 
 
-.
 ├── csci323_groupproject_ft11.py   # Main training & evaluation script
 ├── policy_mc.pkl                  # Saved Monte Carlo policy
 ├── policy_sarsa.pkl               # Saved SARSA policy
