@@ -95,11 +95,12 @@ All figures are saved automatically in the working directory
 
 After training, a summary is printed:
 
-Algorithm	avg_return	avg_steps	success_rate
-Monte Carlo	+10.04	13.0	100.0 %
-SARSA	+9.76	13.1	100.0 %
-Q-Learning	+10.09	12.9	100.0 %
-Value Iteration	+10.12	12.8	100.0 %
+| Algorithm       | avg_return | avg_steps | success_rate |
+| --------------- | ---------- | --------- | ------------ |
+| Monte Carlo     | +10.04     | 13.0      | 100.0 %      |
+| SARSA           | +9.76      | 13.1      | 100.0 %      |
+| Q-Learning      | +10.09     | 12.9      | 100.0 %      |
+| Value Iteration | +10.12     | 12.8      | 100.0 %      |
 
 
 
