@@ -104,22 +104,18 @@ After training, a summary is printed:
 
 
 
----
-
 ###  File Structure
 
 csci323-taxi-ft11/
-│
 ├── csci323_groupproject_ft11.py # Main training & evaluation script
-│
 ├── policy_mc.pkl # Saved Monte Carlo policy
 ├── policy_sarsa.pkl # Saved SARSA policy
 ├── policy_ql.pkl # Saved Q-Learning policy
 ├── policy_vi.pkl # Saved Value Iteration policy
-│
 ├── fig_*.png # Auto-generated figures
 ├── requirements.txt # Dependency list
 └── README.md # Project documentation
+
 
 
 To reproduce all results, simply run:
