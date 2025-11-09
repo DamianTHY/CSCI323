@@ -73,6 +73,8 @@ Automatically plot training progress and evaluation figures.
 
 
 2. Generate Key Figures
+
+
 | Figure                                    | Description                                 |
 | ----------------------------------------- | ------------------------------------------- |
 |   Training Progress (per algorithm)       | Reward & ε vs Episode plots                 |
@@ -80,6 +82,8 @@ Automatically plot training progress and evaluation figures.
 |   On-policy vs Off-policy (Avg Return)    | Comparison of learning paradigms            |
 |   Model-free vs Model-based (Bar Chart)   | Aggregated mean returns and steps           |
 |   Variance & Heatmaps                     | Visualizes agent trajectories and stability |
+
+
 
 All figures are saved automatically in the working directory
 
@@ -94,6 +98,8 @@ Value Iter.   | avg_return = +10.12 | avg_steps = 12.8 | success = 100.0 %
 
 
 🧩 File Structure
+
+
 .
 ├── csci323_groupproject_ft11.py   # Main training & evaluation script
 ├── policy_mc.pkl                  # Saved Monte Carlo policy
