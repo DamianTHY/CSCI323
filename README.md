@@ -93,23 +93,23 @@ All figures are saved automatically in the working directory
 
 After training, a summary is printed:
 
-Monte Carlo   | avg_return = +10.04 | avg_steps = 13.0 | success = 100.0 %
-SARSA         | avg_return = +9.76  | avg_steps = 13.1 | success = 100.0 %
-Q-Learning    | avg_return = +10.09 | avg_steps = 12.9 | success = 100.0 %
-Value Iter.   | avg_return = +10.12 | avg_steps = 12.8 | success = 100.0 %
+Monte Carlo | avg_return = +10.04 | avg_steps = 13.0 | success = 100.0 %
+SARSA | avg_return = +9.76 | avg_steps = 13.1 | success = 100.0 %
+Q-Learning | avg_return = +10.09 | avg_steps = 12.9 | success = 100.0 %
+Value Iter. | avg_return = +10.12 | avg_steps = 12.8 | success = 100.0 %
 
 
 🧩 File Structure
 
 
-├── csci323_groupproject_ft11.py   # Main training & evaluation script
-├── policy_mc.pkl                  # Saved Monte Carlo policy
-├── policy_sarsa.pkl               # Saved SARSA policy
-├── policy_ql.pkl                  # Saved Q-Learning policy
-├── policy_vi.pkl                  # Saved Value Iteration policy
-├── fig_*.png                      # Auto-generated figures
-├── requirements.txt               # Dependencies list
-└── README.md                      # This file
+├── csci323_groupproject_ft11.py
+├── policy_mc.pkl 
+├── policy_sarsa.pkl 
+├── policy_ql.pkl
+├── policy_vi.pkl 
+├── fig_*.png
+├── requirements.txt 
+└── README.md 
 
 
 To reproduce all results, simply run:
