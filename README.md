@@ -106,6 +106,7 @@ After training, a summary is printed:
 
 ###  File Structure
 
+```
 csci323-taxi-ft11/
 ├── csci323_groupproject_ft11.py # Main training & evaluation script
 ├── policy_mc.pkl # Saved Monte Carlo policy
@@ -115,7 +116,7 @@ csci323-taxi-ft11/
 ├── fig_*.png # Auto-generated figures
 ├── requirements.txt # Dependency list
 └── README.md # Project documentation
-
+```
 
 
 To reproduce all results, simply run:
